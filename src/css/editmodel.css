@@ -1,0 +1,23 @@
+.button-green{
+    padding-inline: 20px;
+}
+.price {
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.price-edit {
+    padding: 15px;
+}
+
+.price-edit input {
+    width: 80px;
+    align-self: flex-start;
+    border: 2px solid var(--primaryBorderColor)
+}
+
+.price-edit i {
+    color: rgb(61, 228, 61);
+    padding: 5px;
+    vertical-align:middle ;
+}

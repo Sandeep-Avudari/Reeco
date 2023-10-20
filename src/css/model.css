@@ -1,0 +1,35 @@
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.model-main {
+    background-color: white;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80%;
+}
+
+.button-m {
+    margin: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.str-opcty {
+    font-weight: bolder;
+    font-size: medium;
+    opacity: 0.8;
+}
+
+.header-pop {
+    height: 25px;
+}
+
