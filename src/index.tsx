@@ -7,13 +7,16 @@ import reportWebVitals from './reportWebVitals';
 import './css/page.css';
 import './css/model.css';
 import './css/editmodel.css';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <Provider store={store}>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </Provider>
 );
 
